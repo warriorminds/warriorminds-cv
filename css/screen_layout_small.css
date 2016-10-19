@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+div.main_container_image{ float: none; margin: 0 auto; margin-bottom: 25px; }
+div.main_container_info{ float: none; width: 100%; margin-right: 30px; }
+div.main_container_sidebar { float: left; width: 100%; } 
+div.clear_sidebar {clear: none; }
+.main_container_sidebar_element { margin-top: 0; }
+#middle_column { border-top: 1px solid rgb(167, 167, 167); border-bottom: 1px solid rgb(167, 167, 167); border-right: none; border-left: none; padding-top: 10px; margin-bottom: 10px; }
+.column_container .column { width: 100%; float: none; }
+
+.cv_info_container{ width: 50%; float: left; margin-right: 25px; }
+.cv_info_sidebar_container { width: 25%; float: left; }
+.cv_container_sidebar_element h2 { font-size: 1.2em; }
+
+a.button_link { margin-bottom: 20px; }
+
+@media screen and (max-width: 393px)
+{
+	span.white_text { display: inline; }
+	header p { padding-top: 15px; }
+}
+
+@media screen and (max-width: 373px)
+{
+	nav { top: -60px; }
+}
+
+@media screen and (max-width: 391px)
+{
+	span.green_text { padding-bottom: 10px; }
+}
+
+.cv_info_container, .cv_info_sidebar_container { width: 90%; float: none; clear: both; padding-right: 20px; margin-right: 0px; }
+.cv_info_sidebar_container{  }
+.cv_container_sidebar_element { float: left; width: 45%; margin-left: 10px; }

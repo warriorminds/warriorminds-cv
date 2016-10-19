@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* global rules */
+body{ margin: 0; padding: 0; }
+
+nav 
+{
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color: rgb(248, 248, 248);
+}
+/* large screens layout */
+
+header{
+	height: 110px;
+}
+
+span.green_text{ font-size: 3em; font-weight: bold; display: inline-block; }
+span.white_text { font-size: 3em; font-weight: bold; padding-top: 40px; display: inline-block; }
+span#small_text_header { margin-left: 25px; }
+
+div.main_container, .cv_container, .projects_container, .contact_container{
+	margin-top: 60px;
+	padding: 40px;
+	margin-bottom: 60px;
+}
+
+div.gallery_container{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+div.main_container_image{ width: 40%; float: left; margin-right: 30px; }
+div.main_container_info{ float: left; width: 35%; margin-right: 30px; }
+div.main_container_sidebar { float: left; width: 17%; } 
+
+.content { padding: 0px 25px 15px 25px; }
+#middle_column { border-right: 1px solid rgb(167, 167, 167); /*border-left: 1px solid rgb(167, 167, 167);*/ }
+
+.column_container .column { width: 49%; float: left; }
+
+nav { top: -83px; }
+nav a { margin: 12px 0px 10px 15px; border-right: 2px solid white; padding-right: 15px; }
+
+@media screen and (max-width:990px)
+{
+	footer , header, .cv_info_container  { padding-left: 20px; padding-right: 20px; }
+	.projects_info_container { padding-left: 20px; padding-right: 20px; }
+	header { padding-right: 10px; }
+}
+
+@media screen and (max-width: 955px)
+{
+	div.main_container_sidebar{ float: none; width: 600px; margin: 0 auto; }
+	.main_container_sidebar_element { float: left; margin-right: 50px; margin-top: 20px; }
+	.clear_sidebar{ clear: both; }
+}
+
+/* cv */
+.cv_info_container{ width: 70%; float: left; margin-right: 55px; }
+.cv_info_sidebar_container { width: 15%; float: left; }
+
+/* projects */
+a.project_one , a.project_two, a.project_three, a.project_four, a.project_five, a.project_six, a.project_seven, a.project_eight, a.project_nine, a.project_ten
+{ 
+	display: block; 
+	width: 100px; 
+	height: 100px; 
+	background-color: rgb(224,224,224); 
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left; 
+	margin-right: 15px; 
+}
+
+a.project_one{ background-image: url(../images/iradio_icon.png);  }
+a.project_two{ background-image: url(../images/imk_icon.png);  }
+a.project_three{ background-image: url(../images/vendetta_icon.png);  }
+a.project_four { background-image: url(../images/embolizacion_icon.png); }
+a.project_five { background-image: url(../images/scia_icon.png); }
+a.project_six { background-image: url(../images/ratir_icon.png); }
+a.project_seven { background-image: url(../images/nautilus_icon.png); }
+a.project_eight { background-image: url(../images/mobzillaradio_icon.png); }
+a.project_nine { background-image: url(../images/mobzilla_icon.png); }
+a.project_ten { background-image: url(../images/mms_icon.png); }
