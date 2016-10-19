@@ -62,7 +62,7 @@ nav a { margin: 12px 0px 10px 15px; border-right: 2px solid white; padding-right
 .cv_info_sidebar_container { width: 15%; float: left; }
 
 /* projects */
-a.project_one , a.project_two, a.project_three, a.project_four, a.project_five, a.project_six, a.project_seven, a.project_eight, a.project_nine, a.project_ten
+a.project_one , a.project_two, a.project_three, a.project_four, a.project_five, a.project_six, a.project_seven, a.project_eight, a.project_nine, a.project_ten, a.project_eleven
 { 
 	display: block; 
 	width: 100px; 
@@ -84,3 +84,4 @@ a.project_seven { background-image: url(../images/nautilus_icon.png); }
 a.project_eight { background-image: url(../images/mobzillaradio_icon.png); }
 a.project_nine { background-image: url(../images/mobzilla_icon.png); }
 a.project_ten { background-image: url(../images/mms_icon.png); }
+a.project_eleven { background-image: url(../images/disney_icon.png); }
